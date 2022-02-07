@@ -2,17 +2,15 @@
 # Peter Bergeon, Brian Edwards, Ryan Romero
 
 # ----- Libraries -----
-import random
 import json
 import pickle
 import numpy as np
 import nltk
-import os
 from nltk.stem import WordNetLemmatizer
 
 # ----- Setup -----
-nltk_path = os.environ.get("NLTK_ROOT", '~/nltk_data/')
-nltk.data.path.append(nltk_path)
+# nltk_path = os.environ.get("NLTK_ROOT", '~/nltk_data/')
+# nltk.data.path.append(nltk_path)
 lemmatizer = WordNetLemmatizer()
 
 with open("intents.json") as file:

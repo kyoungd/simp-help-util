@@ -1,4 +1,4 @@
 Flask==1.1.2
 nltk==3.6.2
 numpy==1.20.2
-gunicorn>=19,<20F
+gunicorn==20.1.0
